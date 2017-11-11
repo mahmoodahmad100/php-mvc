@@ -7,9 +7,9 @@ class Home extends Controller
 		echo 'Home/index';
 	}
 
-	public function test()
+	public function test($name = 'mahmood', $phone = '5')
 	{
-		
+		echo $name.' - '.$phone;
 	}
 }
 
