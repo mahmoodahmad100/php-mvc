@@ -26,6 +26,10 @@ class App
 				$this->method = $url[1];
 				unset($url[1]);
 			}
+
+			$this->params = $url ? array_values($url) : [];
+
+			print_r($this->params);
 		}
 	}
 
