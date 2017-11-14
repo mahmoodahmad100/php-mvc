@@ -8,6 +8,11 @@ class Controller
 		
 		return new $model(); 
 	}
+
+	public function view($view, $data)
+	{
+
+	}
 }
 
  ?>
