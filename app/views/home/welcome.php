@@ -1,0 +1,1 @@
+welcome <?php echo $data['username']; ?>
