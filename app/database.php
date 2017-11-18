@@ -8,7 +8,7 @@ $capsule->addConnection([
 		'host'      => '127.0.0.1',
 		'username'  => 'root',
 		'password'  => '11111',
-		'database'  => 'test',
+		'database'  => 'test1',
 		'charset'   => 'utf8',
 		'collation' => 'utf8_unicode_ci',
 		'prefix'    => ''
